@@ -8,16 +8,20 @@ import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
+import com.asturiancoder.kmmexample.shared.Greeting
 import com.asturiancoder.kmmexample.ui.theme.KMMExampleTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        val greeting = Greeting().greeting()
+
         setContent {
             KMMExampleTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.background) {
-                    Greeting("Android")
+                    Greeting(greeting)
                 }
             }
         }
@@ -26,7 +30,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String) {
-    Text(text = "Hello $name!")
+    Text(text = name)
 }
 
 @Preview(showBackground = true)
