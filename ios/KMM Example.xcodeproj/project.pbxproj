@@ -137,6 +137,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB4AC61D27294BFD00576AF4 /* Build configuration list for PBXNativeTarget "KMM Example" */;
 			buildPhases = (
+				EBE3EFEC2729F25A004BFEB7 /* ShellScript */,
 				EB4AC5F427294BEE00576AF4 /* Sources */,
 				EB4AC5F527294BEE00576AF4 /* Frameworks */,
 				EB4AC5F627294BEE00576AF4 /* Resources */,
@@ -253,6 +254,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EBE3EFEC2729F25A004BFEB7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"$SRCROOT/..\"\n./gradlew :shared:embedAndSignAppleFrameworkForXcode\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EB4AC5F427294BEE00576AF4 /* Sources */ = {
@@ -420,11 +441,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"KMM Example/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/../shared/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)";
 				INFOPLIST_FILE = "KMM Example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					"$(inherited)",
+					"-framework",
+					shared,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.asturiancoder.kmmexample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,11 +468,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"KMM Example/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/../shared/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)";
 				INFOPLIST_FILE = "KMM Example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					"$(inherited)",
+					"-framework",
+					shared,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.asturiancoder.kmmexample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
