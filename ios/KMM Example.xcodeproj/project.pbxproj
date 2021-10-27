@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB4AC5FC27294BEE00576AF4 /* KMM_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4AC5FB27294BEE00576AF4 /* KMM_ExampleApp.swift */; };
+		EB4AC5FE27294BEE00576AF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4AC5FD27294BEE00576AF4 /* ContentView.swift */; };
+		EB4AC60027294BFC00576AF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4AC5FF27294BFC00576AF4 /* Assets.xcassets */; };
+		EB4AC60327294BFC00576AF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4AC60227294BFC00576AF4 /* Preview Assets.xcassets */; };
+		EB4AC60E27294BFD00576AF4 /* KMM_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4AC60D27294BFD00576AF4 /* KMM_ExampleTests.swift */; };
+		EB4AC61927294BFD00576AF4 /* KMM_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4AC61827294BFD00576AF4 /* KMM_ExampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB4AC60A27294BFD00576AF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB4AC5F027294BEE00576AF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB4AC5F727294BEE00576AF4;
+			remoteInfo = "KMM Example";
+		};
+		EB4AC61527294BFD00576AF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB4AC5F027294BEE00576AF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB4AC5F727294BEE00576AF4;
+			remoteInfo = "KMM Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB4AC5F827294BEE00576AF4 /* KMM Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KMM Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4AC5FB27294BEE00576AF4 /* KMM_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMM_ExampleApp.swift; sourceTree = "<group>"; };
+		EB4AC5FD27294BEE00576AF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB4AC5FF27294BFC00576AF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB4AC60227294BFC00576AF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB4AC60427294BFC00576AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4AC60927294BFD00576AF4 /* KMM ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KMM ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4AC60D27294BFD00576AF4 /* KMM_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMM_ExampleTests.swift; sourceTree = "<group>"; };
+		EB4AC60F27294BFD00576AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4AC61427294BFD00576AF4 /* KMM ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KMM ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4AC61827294BFD00576AF4 /* KMM_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMM_ExampleUITests.swift; sourceTree = "<group>"; };
+		EB4AC61A27294BFD00576AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB4AC5F527294BEE00576AF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4AC60627294BFD00576AF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4AC61127294BFD00576AF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB4AC5EF27294BEE00576AF4 = {
+			isa = PBXGroup;
+			children = (
+				EB4AC5FA27294BEE00576AF4 /* KMM Example */,
+				EB4AC60C27294BFD00576AF4 /* KMM ExampleTests */,
+				EB4AC61727294BFD00576AF4 /* KMM ExampleUITests */,
+				EB4AC5F927294BEE00576AF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB4AC5F927294BEE00576AF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AC5F827294BEE00576AF4 /* KMM Example.app */,
+				EB4AC60927294BFD00576AF4 /* KMM ExampleTests.xctest */,
+				EB4AC61427294BFD00576AF4 /* KMM ExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB4AC5FA27294BEE00576AF4 /* KMM Example */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AC5FB27294BEE00576AF4 /* KMM_ExampleApp.swift */,
+				EB4AC5FD27294BEE00576AF4 /* ContentView.swift */,
+				EB4AC5FF27294BFC00576AF4 /* Assets.xcassets */,
+				EB4AC60427294BFC00576AF4 /* Info.plist */,
+				EB4AC60127294BFC00576AF4 /* Preview Content */,
+			);
+			path = "KMM Example";
+			sourceTree = "<group>";
+		};
+		EB4AC60127294BFC00576AF4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AC60227294BFC00576AF4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB4AC60C27294BFD00576AF4 /* KMM ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AC60D27294BFD00576AF4 /* KMM_ExampleTests.swift */,
+				EB4AC60F27294BFD00576AF4 /* Info.plist */,
+			);
+			path = "KMM ExampleTests";
+			sourceTree = "<group>";
+		};
+		EB4AC61727294BFD00576AF4 /* KMM ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AC61827294BFD00576AF4 /* KMM_ExampleUITests.swift */,
+				EB4AC61A27294BFD00576AF4 /* Info.plist */,
+			);
+			path = "KMM ExampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB4AC5F727294BEE00576AF4 /* KMM Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4AC61D27294BFD00576AF4 /* Build configuration list for PBXNativeTarget "KMM Example" */;
+			buildPhases = (
+				EB4AC5F427294BEE00576AF4 /* Sources */,
+				EB4AC5F527294BEE00576AF4 /* Frameworks */,
+				EB4AC5F627294BEE00576AF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KMM Example";
+			productName = "KMM Example";
+			productReference = EB4AC5F827294BEE00576AF4 /* KMM Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB4AC60827294BFD00576AF4 /* KMM ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4AC62027294BFD00576AF4 /* Build configuration list for PBXNativeTarget "KMM ExampleTests" */;
+			buildPhases = (
+				EB4AC60527294BFD00576AF4 /* Sources */,
+				EB4AC60627294BFD00576AF4 /* Frameworks */,
+				EB4AC60727294BFD00576AF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB4AC60B27294BFD00576AF4 /* PBXTargetDependency */,
+			);
+			name = "KMM ExampleTests";
+			productName = "KMM ExampleTests";
+			productReference = EB4AC60927294BFD00576AF4 /* KMM ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB4AC61327294BFD00576AF4 /* KMM ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4AC62327294BFD00576AF4 /* Build configuration list for PBXNativeTarget "KMM ExampleUITests" */;
+			buildPhases = (
+				EB4AC61027294BFD00576AF4 /* Sources */,
+				EB4AC61127294BFD00576AF4 /* Frameworks */,
+				EB4AC61227294BFD00576AF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB4AC61627294BFD00576AF4 /* PBXTargetDependency */,
+			);
+			name = "KMM ExampleUITests";
+			productName = "KMM ExampleUITests";
+			productReference = EB4AC61427294BFD00576AF4 /* KMM ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB4AC5F027294BEE00576AF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EB4AC5F727294BEE00576AF4 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EB4AC60827294BFD00576AF4 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EB4AC5F727294BEE00576AF4;
+					};
+					EB4AC61327294BFD00576AF4 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EB4AC5F727294BEE00576AF4;
+					};
+				};
+			};
+			buildConfigurationList = EB4AC5F327294BEE00576AF4 /* Build configuration list for PBXProject "KMM Example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB4AC5EF27294BEE00576AF4;
+			productRefGroup = EB4AC5F927294BEE00576AF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB4AC5F727294BEE00576AF4 /* KMM Example */,
+				EB4AC60827294BFD00576AF4 /* KMM ExampleTests */,
+				EB4AC61327294BFD00576AF4 /* KMM ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB4AC5F627294BEE00576AF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4AC60327294BFC00576AF4 /* Preview Assets.xcassets in Resources */,
+				EB4AC60027294BFC00576AF4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4AC60727294BFD00576AF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4AC61227294BFD00576AF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB4AC5F427294BEE00576AF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4AC5FE27294BEE00576AF4 /* ContentView.swift in Sources */,
+				EB4AC5FC27294BEE00576AF4 /* KMM_ExampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4AC60527294BFD00576AF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4AC60E27294BFD00576AF4 /* KMM_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4AC61027294BFD00576AF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4AC61927294BFD00576AF4 /* KMM_ExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB4AC60B27294BFD00576AF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB4AC5F727294BEE00576AF4 /* KMM Example */;
+			targetProxy = EB4AC60A27294BFD00576AF4 /* PBXContainerItemProxy */;
+		};
+		EB4AC61627294BFD00576AF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB4AC5F727294BEE00576AF4 /* KMM Example */;
+			targetProxy = EB4AC61527294BFD00576AF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB4AC61B27294BFD00576AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB4AC61C27294BFD00576AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB4AC61E27294BFD00576AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"KMM Example/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "KMM Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asturiancoder.kmmexample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EB4AC61F27294BFD00576AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"KMM Example/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "KMM Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asturiancoder.kmmexample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EB4AC62127294BFD00576AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KMM ExampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.asturiancoder.KMM-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMM Example.app/KMM Example";
+			};
+			name = Debug;
+		};
+		EB4AC62227294BFD00576AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KMM ExampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.asturiancoder.KMM-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMM Example.app/KMM Example";
+			};
+			name = Release;
+		};
+		EB4AC62427294BFD00576AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KMM ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.asturiancoder.KMM-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KMM Example";
+			};
+			name = Debug;
+		};
+		EB4AC62527294BFD00576AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KMM ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.asturiancoder.KMM-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KMM Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB4AC5F327294BEE00576AF4 /* Build configuration list for PBXProject "KMM Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4AC61B27294BFD00576AF4 /* Debug */,
+				EB4AC61C27294BFD00576AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB4AC61D27294BFD00576AF4 /* Build configuration list for PBXNativeTarget "KMM Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4AC61E27294BFD00576AF4 /* Debug */,
+				EB4AC61F27294BFD00576AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB4AC62027294BFD00576AF4 /* Build configuration list for PBXNativeTarget "KMM ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4AC62127294BFD00576AF4 /* Debug */,
+				EB4AC62227294BFD00576AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB4AC62327294BFD00576AF4 /* Build configuration list for PBXNativeTarget "KMM ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4AC62427294BFD00576AF4 /* Debug */,
+				EB4AC62527294BFD00576AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB4AC5F027294BEE00576AF4 /* Project object */;
+}
